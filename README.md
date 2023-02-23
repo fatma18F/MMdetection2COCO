@@ -41,9 +41,3 @@ mim download mmdet --config yolov3_mobilenetv2_320_300e_coco --dest .
 -  `image_predictions2coco.py` runs inference on the specified image path and convert the model predictions into the list/dict based format of [MS Coco annotations](http://cocodataset.org/#format-data) and store them as a .json file in the same folder.
   
 ***parameters*** : specify image path under `dir_path`, model configuation file path under `config_file` and model weights path under `checkpoint_file`
-
-
-- `tarsierDataset_converor.py` fellows Tarsier images structure and runs inference on the specified number of images from in `/mnt/NAS_Backup/Datasets/Tarsier_Main_Dataset/Images`. The default `nb_images=1000` and convert the model predictions into the list/dict based format of [MS Coco annotations](http://cocodataset.org/#format-data) and store them as a .json file in the same folder.
-
-***parameters*** : specify image path under `img_prefix`,annotation file under `ann_file `,model configuation file path under `config_file` and model weights path under `checkpoint_file`
-
