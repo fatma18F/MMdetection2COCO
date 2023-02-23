@@ -1,4 +1,6 @@
-# Convert MMdetection inference prediction to COCO format 
+## Convert MMdetection inference prediction to COCO format 
+about [MMdetection](https://storage.googleapis.com/openimages/web/index.html):
+MMdetection is an open-source library containing many popular and state-of-the-art object detection models.
 
 ### PREREQUISITES
 ***Step 1.*** Create a conda environment and activate it.
